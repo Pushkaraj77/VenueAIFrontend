@@ -261,7 +261,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await axios.post('http://et-ci-dev-vai-api-b2ape4e9baaddrg7.centralindia-01.azurewebsites.net/api/chat', {
+      const response = await axios.post('https://et-ci-dev-vai-api-b2ape4e9baaddrg7.centralindia-01.azurewebsites.net/api/chat', {
         message: input,
       });
 
